@@ -15,6 +15,8 @@ const (
 	Bz2Compression    = CompressionOpt(3)
 	Lz4Compression    = CompressionOpt(4)
 	Lz4hcCompression  = CompressionOpt(5)
+	XpressCompression = CompressionOpt(6)
+	ZstdCompression   = CompressionOpt(7)
 )
 
 type Options struct {
