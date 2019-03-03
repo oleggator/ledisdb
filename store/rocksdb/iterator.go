@@ -2,7 +2,7 @@
 
 package rocksdb
 
-// #cgo LDFLAGS: -lrocksdb
+// #cgo LDFLAGS: -lrocksdb -lzstd
 // #include <stdlib.h>
 // #include "rocksdb/c.h"
 // #include "rocksdb_ext.h"
